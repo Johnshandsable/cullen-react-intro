@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import HelloCullen from './HelloCullen';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <HelloCullen />
+        <h1>Go Home React, you're drunk!</h1>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
